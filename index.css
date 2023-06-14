@@ -1,0 +1,30 @@
+body{
+    background-color: gray;
+}
+.juego{
+    display: flex;
+    justify-content: center;
+    margin:  auto 0;
+
+}
+
+.caja1{
+    width: 5rem;
+    border: 1px solid black;
+    text-align: center;
+    margin: 1rem;
+
+}
+
+.popUpContainer{
+    position: relative;
+    border: 1px solid black;
+    background-color: rgb(29, 60, 87);
+    color: aliceblue;
+    display: none;
+}
+
+.close{
+    border: 1px solid black;
+    width: max-content;
+}
